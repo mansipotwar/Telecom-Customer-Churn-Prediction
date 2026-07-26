@@ -68,41 +68,11 @@ The project uses a telecom customer churn dataset containing demographic, servic
 | Target Variable | `Churn` |
 | Problem Type | Binary Classification |
 
-### Feature Categories
 
-#### 👤 Demographics
-
-- `gender`
-- `SeniorCitizen`
-- `Partner`
-- `Dependents`
-
-#### 📡 Services
-
-- `PhoneService`
-- `MultipleLines`
-- `InternetService`
-- `OnlineSecurity`
-- `OnlineBackup`
-- `DeviceProtection`
-- `TechSupport`
-- `StreamingTV`
-- `StreamingMovies`
-
-#### 📄 Contract & Tenure
-
-- `Contract`
-- `tenure`
-
-#### 💳 Billing
-
-- `PaperlessBilling`
-- `PaymentMethod`
-- `MonthlyCharges`
-- `TotalCharges`
-
----
-
+## 📊 Feature Categories
+<div align="center">
+<img src="images/Feature%20Categories.png" alt="Feature Categories" width="600"/>
+</div>
 ## 🔍 Exploratory Data Analysis
 
 The exploratory analysis focused on identifying patterns and relationships between customer characteristics and churn behavior.
@@ -159,12 +129,10 @@ Random Forest was trained as a comparison model to evaluate whether an ensemble 
 ### 🏆 Selected Model: Logistic Regression
 
 Logistic Regression was selected as the primary model based on its stronger overall performance across:
+<div align="center">
 
-- Accuracy
-- Precision
-- F1 Score
-- ROC-AUC
-
+<img src="images/Selected%20Model.png" alt="Feature Categories" width="400"/>
+</div>
 The trained Logistic Regression model and preprocessing pipeline were saved and integrated into the Streamlit application.
 
 ---
@@ -258,14 +226,9 @@ Risk Level: High Risk
 ```
 
 ### 🔄 Machine Learning Pipeline
-
-
-
-
-
-
-
-
+<div align="center">
+<img src="images/Machine Learning%20Pipeline.png" alt="Feature Categories" width="600"/>
+</div>  
 
 
 📁 Project Structure
@@ -290,6 +253,7 @@ Telecom-Customer-Churn-Prediction/
 │
 └── text
 ```
+
 <h2>🛠️ Tech Stack</h2>
 
 <div style="white-space: nowrap;">
@@ -372,8 +336,3 @@ Mansi Potwar
 ### Important: before you commit this README
 
 There is **one thing we should verify**: the README says **"Logistic Regression was selected because it achieved the highest F1 Score"**, but your actual results show Random Forest recall is higher and the Logistic Regression F1 is only slightly higher. The README is generally accurate, but I recommend we check the exact model-selection reasoning before committing.
-
-Also, your current repository has no `README.md` yet on GitHub, so after saving this file locally, run:
-
-```bash
-git status
