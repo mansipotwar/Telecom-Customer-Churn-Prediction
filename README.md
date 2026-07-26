@@ -259,30 +259,17 @@ Risk Level: High Risk
 
 ### 🔄 Machine Learning Pipeline
 
-Raw Customer Data
-        ↓
-Data Cleaning
-        ↓
-Exploratory Data Analysis
-        ↓
-Feature Selection
-        ↓
-Data Preprocessing
-        ↓
-Model Training
-        ↓
-Model Evaluation
-        ↓
-Model Selection
-        ↓
-Saved Model + Preprocessor
-        ↓
-Streamlit Application
-        ↓
-Live Churn Prediction
+
+
+
+
+
+
+
+
 
 📁 Project Structure
-
+```text
 Telecom-Customer-Churn-Prediction/
 │
 ├── app.py
@@ -302,76 +289,74 @@ Telecom-Customer-Churn-Prediction/
 │   └── 02_Machine_Learning_Model.ipynb
 │
 └── text
+```
+<h2>🛠️ Tech Stack</h2>
 
-🛠️ Tech Stack
-Programming Language
-Python
-Data Analysis
-Pandas
-NumPy
-Data Visualization
-Matplotlib
-Seaborn
-Machine Learning
-Scikit-learn
-Application Development
-Streamlit
-Model Serialization
-Joblib
-Development Tools
-Jupyter Notebook
-VS Code
-Git
-GitHub
+<div style="white-space: nowrap;">
+
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="45" height="45" alt="Python"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/pandas/pandas-original.svg" width="45" height="45" alt="Pandas"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" width="45" height="45" alt="NumPy"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/matplotlib/matplotlib-original.svg" width="45" height="45" alt="Matplotlib"/>
+&nbsp;&nbsp;
+<img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" width="45" height="45" alt="Scikit-learn"/>
+&nbsp;&nbsp;
+<img src="https://streamlit.io/images/brand/streamlit-mark-color.svg" width="45" height="45" alt="Streamlit"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" width="45" height="45" alt="Jupyter"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" width="45" height="45" alt="VS Code"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" width="45" height="45" alt="Git"/>
+&nbsp;&nbsp;
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="45" height="45" alt="GitHub"/>
+
+</div>
 
 ⚙️ Installation
 1. Clone the repository
+```text
 git clone https://github.com/mansipotwar/Telecom-Customer-Churn-Prediction.git
-
-2. Navigate to the project directory
+```
+3. Navigate to the project directory
+```text
 cd Telecom-Customer-Churn-Prediction
-
-3. Create a virtual environment
+```
+4. Create a virtual environment
+```text
 python -m venv .venv
-4. Activate the virtual environment
+```
+5. Activate the virtual environment
 Windows
+```text
 .venv\Scripts\activate
-5. Install dependencies
+```
+6. Install dependencies
+```text
 pip install -r requirements.txt
+```
 
 ▶️ Run the Application
 
 Start the Streamlit application:
-
+```text
 python -m streamlit run app.py
-
+```
 The application will open in your browser at:
-
+```text
 http://localhost:8501
-
+```
 🔐 Model Integration
 
 The application uses the saved machine learning artifacts:
-
+```text
 models/
 ├── logistic_regression_model.pkl
 └── preprocessor.pkl
-
-The prediction flow is:
-
-User Input
-    ↓
-Pandas DataFrame
-    ↓
-Saved Preprocessor
-    ↓
-Transformed Features
-    ↓
-Saved Logistic Regression Model
-    ↓
-Prediction + Probability
-    ↓
-Risk Classification
+```
 
 👩‍💻 Author
 
