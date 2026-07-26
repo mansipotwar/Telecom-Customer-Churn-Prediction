@@ -1,6 +1,6 @@
 <div align="center">
 
-# 📊 Telecom Customer Churn Prediction
+# 📊 TELECOM CUSTOMER CHURN PREDICTION*
 
 ### An End-to-End Machine Learning System for Telecom Churn Analysis & Prediction
 
@@ -71,8 +71,9 @@ The project uses a telecom customer churn dataset containing demographic, servic
 
 ## 📊 Feature Categories
 <div align="center">
-<img src="images/Feature%20Categories.png" alt="Feature Categories" width="600"/>
+<img src="images/Feature%20Categories.png" alt="Feature Categories" width="500"/>
 </div>
+
 ## 🔍 Exploratory Data Analysis
 
 The exploratory analysis focused on identifying patterns and relationships between customer characteristics and churn behavior.
@@ -164,18 +165,22 @@ The Logistic Regression coefficients were analyzed to understand which features 
 
 ## 🖥️ Streamlit Application
 
-The trained machine learning model is integrated into an interactive Streamlit dashboard.
-
+TThe trained machine learning model is integrated into an interactive Streamlit dashboard.
 Users can enter:
 
-### 👤 Customer Profile
+<table>
+<tr>
 
+<td width="40%" valign="top">
+
+<h6>👤 Customer Profile
+  
 - Gender
 - Senior Citizen status
 - Partner status
 - Dependents
 
-### 📡 Services
+📡 Services<h6>
 
 - Phone Service
 - Multiple Lines
@@ -187,19 +192,31 @@ Users can enter:
 - Streaming TV
 - Streaming Movies
 
-### 📄 Contract & Tenure
+📄 Contract & Tenure
 
 - Contract Type
 - Tenure
 
-### 💳 Billing
+💳 Billing
 
 - Paperless Billing
 - Payment Method
 - Monthly Charges
-- Total Charges
+- Total Charges</h6>  
 
+</td>
 The application then generates a live churn prediction.
+
+<td width="50%" align="center">
+
+<img src="images/Streamlit%20Application.png"
+     alt="Streamlit Application"
+     width="600"/>
+
+</td>
+
+</tr>
+</table>
 
 ---
 
@@ -227,7 +244,7 @@ Risk Level: High Risk
 
 ### 🔄 Machine Learning Pipeline
 <div align="center">
-<img src="images/Machine Learning%20Pipeline.png" alt="Feature Categories" width="600"/>
+<img src="images/Machine Learning%20Pipeline.png" alt="Feature Categories" width="500"/>
 </div>  
 
 
@@ -322,13 +339,14 @@ models/
 └── preprocessor.pkl
 ```
 
-👩‍💻 Author
+## 👩‍💻 Author
 
-Mansi Potwar
+**Mansi Potwar**
 
-🎯 Focus: Data Analytics & Machine Learning
-
-🔗 GitHub: @mansipotwar
+- 🐙 GitHub: https://github.com/mansipotwar
+- 💼 LinkedIn: https://www.linkedin.com/in/mansi-potwar/
+- 📺 YouTube: https://www.youtube.com/@mansiova
+- ✉️ Email: maanasiexai9@example.com
 
 ⭐ If you found this project interesting, feel free to explore the repository!
 
