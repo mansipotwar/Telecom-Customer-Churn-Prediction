@@ -220,6 +220,57 @@ The application then generates a live churn prediction.
 
 ---
 
+<table>
+<tr>
+
+
+<td width="50%" align="center">
+Data Visualization
+<img src="images/data%20visualization.png"
+     alt="Streamlit Application"
+     width="400"/>
+</td>
+
+<td width="50%" align="center">
+Streamlit Application
+<img src="images/1Streamlit%20Application.png"
+     alt="Streamlit Application"
+     width="400"/>
+
+</td>
+
+</tr>
+</table>
+
+---
+
+<table>
+<tr>
+
+<td width="50%" align="center">
+Input Section
+<img src="images/Input%20Section.png"
+     alt="Streamlit Application"
+     width="400"/>
+</td>
+
+
+<td width="50%" align="center">
+Prediction Result
+<img src="images/Prediction%20Result.png"
+     alt="Streamlit Application"
+     width="400"/>
+
+</td>
+
+</tr>
+</table>
+---
+
+
+
+
+
 ## 🔮 Prediction Output
 
 ### 📊 Churn Probability
